@@ -1,0 +1,28 @@
+<style lang="#CSS_LANG" scoped>
+.#NAME {
+}
+</style>
+
+<template>
+  <div :class="prefixCls"></div>
+</template>
+
+<script>
+const name = '#NAME';
+const prefixCls = name;
+
+export default {
+  name,
+  props: {},
+  components: {},
+  mounted() {},
+  data() {
+    return {
+      prefixCls,
+    };
+  },
+  methods: {},
+  computed: {},
+  watch: {},
+};
+</script>
